@@ -71,5 +71,5 @@ if len(ips_matches) >= 1:
     maior = cidr_matches.index(max(cidr_matches))
     print('Interface de Saída: ' + saida_matches[maior])
 else:
-    print('Sem Saída!')
+    print('PACOTE PERDIDO! Tabela de rotas não possui porta de saída para tal IP.')
         
