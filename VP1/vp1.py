@@ -63,7 +63,7 @@ if len(ips_matches) >= 1:
     maior = cidr_matches.index(max(cidr_matches))
     print('Interface de Saída: ' + saida_matches[maior])
 else:
-    print('Sem Saída!')
+    print('PACOTE PERDIDO! - A tabela de rotas não possui uma saída para esse endereço IP.')
         
 # Terminal: pyton .\vp1.py "Caminho para .csv" "Endereço IP"
 # Exemplo de uso para o terminal:  python .\vp1.py C:\Users\GOLDENTEC\Documents\dados.csv 192.45.67.55
